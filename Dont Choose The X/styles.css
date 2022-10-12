@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  background-color: #FFF7E9;
+}
+
+h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 7rem;
+  color: #1746A2;
+  margin: 10px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 4rem;
+  color: #5F9DF7;
+  margin: 0 10px 10px 10px;
+}
+
+h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 2rem;
+  color: #5F9DF7;
+  margin: 0 10px 10px 10px;
+}
+.x
+{
+  background-image: url("images/red x.png");
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+
+.star
+{
+  background-image: url("images/star.png");
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+
+.box {
+  background-color: #6C5B7B;
+  height: 200px;
+  width: 200px;
+  font-size: 4rem;
+  color: #C06C84;
+  font-family: 'Fira Sans', sans-serif;
+  margin: 20px;
+}

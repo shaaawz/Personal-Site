@@ -1,0 +1,85 @@
+.topdiv {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-top: -50px;
+  background-color: #F4EEFF;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 70px;
+  padding-top: 150px;
+  color: #424874;
+  margin: auto auto 0 auto;
+}
+
+p {
+  font-family: 'Sacramento', cursive;
+  font-family: 'Merriweather', serif;
+  color: #424874;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #A6B1E1;
+  margin: 50px auto 0 auto;
+}
+
+h3 {
+  color: #424874;
+}
+
+hr {
+  color: #A6B1E1;
+  border: none;
+  border-top: 5px dotted;
+  width: 5%;
+}
+
+.top-cloud {
+  height: 100px;
+  position: absolute;
+  right: 100px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  left: 75px;
+}
+
+.contact-me {
+  color: #A6B1E1;
+}
+
+.middle-container {
+
+  width: 50%;
+  margin: auto;
+}
+
+.skill-row {
+  text-align: left;
+  margin: 10px auto 75px auto;
+}
+
+.webdev {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.conversation {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}

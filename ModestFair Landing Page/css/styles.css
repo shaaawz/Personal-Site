@@ -1,0 +1,195 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #B270A2;
+  color: #fff;
+  padding: 0 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+
+font-size: 2rem;
+}
+
+h4 {
+font-size: 1.5rem;
+
+}
+
+h3 {
+ margin: 10% 3% 5% 0;
+ font-size: 2rem;
+ 
+  }
+
+  p {
+  font-size: 1rem;
+  color: #8f8f8f;
+  }
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Headings */
+.big_heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  border-radius: 25px;
+  transform: rotate(25deg);
+  position: relative;
+  z-index: 0;
+  right: -12%;
+
+
+}
+
+/* Features Section */
+
+#features {
+padding: 7% 15%;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+background-color: white;
+position: relative;
+z-index: 1;
+margin-top: -150px;
+
+}
+
+.feature-box {
+padding: 5%;
+}
+
+.features-button {
+color:  #B270A2;
+
+}
+
+.features-button:hover {
+  color: #FF8FB1;
+}
+
+/* Testimonial Section */
+#testimonials {
+
+  text-align: center;
+  background-color: #B270A2;
+  color: white;
+}
+
+.carousel-item {
+padding: 7% 15%;
+
+}
+
+.test-img {
+
+  width: 100px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #B270A2;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+
+text-align: center;
+padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Media @ 1200px */
+
+@media (max-width: 1200px) {
+.title-image {
+  position: static;
+  transform: rotate(0);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+ #features {
+   position: static;
+   margin-top: 100px;
+ }
+}
+
+/* Call To Action */
+
+#cta {
+  background-color: #B270A2;
+  text-align: center;
+  color: white;
+}
+
+/* Call to Action Button */
+.cta-button {
+  margin: 0 3% 7% 3%;
+}
+
+
+/* Footer */
+#footer {
+  margin: 5%;
+  text-align: center;
+}
+
+.footer-button {
+  padding: 0 10px 20px;
+}
